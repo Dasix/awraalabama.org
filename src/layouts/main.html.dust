@@ -75,6 +75,7 @@
     <div class="container">
         <div class="row">
             <div id="copyright" class="col-lg-12 text-center">
+                <!--This content replaced with script in main.js-->
                 <p>This website created and maintained by the Alabama Rural Water Association</p>
             </div>
 
