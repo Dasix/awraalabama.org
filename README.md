@@ -185,9 +185,11 @@ Makes sure that you don't push unnecessary files to our repository.
 NPM Publishing Settings
 
 **LICENSE.md**
+
 The License
 
 **package.json**
+
 `npm install` instructions.
 
 **README.md**
