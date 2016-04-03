@@ -109,7 +109,9 @@ have to change anything here, but if you do, it will affect grits configuration.
 
 ### env - Project Environment Files
 Find project environment settings located here.  Make changes to how vagrant 
-behaves, auto-install some new things, whatever you feel.  
+behaves, auto-install some new things, whatever you feel. 
+ 
+Learn more about the project environment [here][7].
 
 ### scripts - Project Automation
 Find useful scripts here.  They keep you from typing things into the command 
@@ -212,4 +214,5 @@ is, it will be written about here.
 [4]: https://www.virtualbox.org/wiki/Documentation "VirtualBox Docs"
 [5]: https://github.com/Dasix/grits "Grits GitHub"
 [6]: http://sass-lang.com/guide "Sass Guide"
+[7]: /env/README.md "ENV Docs"
 [99]: https://github.com/Dasix/awraalabama.org/archive/master.zip "Source Zip File"
