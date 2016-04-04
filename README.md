@@ -45,8 +45,9 @@ Now, simply...
 ``` bash
 npm run-script live
 ```
-...and navigate to http://localhost:3955 .  Now, any changes you save will 
-auto-update in real-time and be rendered to your browser.
+...and navigate to [http://localhost:3955](http://localhost:3955) .  Now, 
+any changes you save will auto-update in real-time and be rendered to your 
+browser.
 
 Warning: There is a slight chance of port conflicts when doing this.  If 
 that happens, you will need to modify the appropriate sections of the project 
