@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '0.12'
+before_install:
+- chmod +x ./scripts -R
+before_deploy:
+- npm run-script grits-render-once
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: awra.dasix.com
+  local-dir: dist
+  acl: public_read
+  skip_cleanup: true
+  on:
+    repo: Dasix/awraalabama.org
