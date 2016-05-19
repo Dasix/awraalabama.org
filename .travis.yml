@@ -4,6 +4,7 @@ node_js:
 before_install:
 - chmod +x ./scripts -R
 before_deploy:
+- cd /project
 - npm run-script grits-render-once
 deploy:
   provider: s3
