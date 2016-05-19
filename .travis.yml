@@ -3,9 +3,8 @@ node_js:
 - '0.12'
 before_install:
 - chmod +x ./scripts -R
-- cd /project
 before_deploy:
-- npm run-script grits-render-once
+- npm run-script once
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
