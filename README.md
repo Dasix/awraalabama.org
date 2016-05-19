@@ -1,5 +1,7 @@
 # Welcome!
-You have found the source for the website of the Alabama Section of the 
+[![Build Status](https://travis-ci.org/Dasix/awraalabama.org.svg?branch=master)](https://travis-ci.org/Dasix/awraalabama.org)
+
+You have found the source for the website of the Alabama Section of the
 American Water Resources Association.  
 
 ## http://awraalabama.org
